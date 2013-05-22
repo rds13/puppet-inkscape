@@ -1,5 +1,12 @@
 ---
-script: "./script/cibuild"
-gemfile: "this/does/not/exist"
+script: ./script/cibuild
+gemfile: this/does/not/exist
 rvm:
-  - "1.8.7"
+- 1.8.7
+env:
+  global:
+  - secure: ! 'nfV1EWApyPPJvvumo40rVVjKOg8ppGJ866PoJygyvvWX7dWstv1df5ToyUk5
+
+      IplZ1rUS6xg78TRdqz0FXiVqA7GQaBdD0zlMnm9AE143yZ2ZKMdj1DTOVzA0
+
+      PNl/B0ulCaGNJROoSUrB8oCdP4DUwLHkQR7xLhJmy/fIr6zV+6I='
