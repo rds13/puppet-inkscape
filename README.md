@@ -2,7 +2,7 @@
 
 Installs [Inkscape](http://inkscape.org/), an open-source vector graphics editor. 
 
-[![Build Status](https://travis-ci.org/lglenn/puppet-inkscape.png?branch=master)](https://travis-ci.org/lglenn/puppet-inkscape)
+[![Build Status](https://travis-ci.org/boxen/puppet-inkscape.png?branch=master)](https://travis-ci.org/boxen/puppet-inkscape)
 
 ## Usage
 
