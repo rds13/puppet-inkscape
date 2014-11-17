@@ -15,6 +15,6 @@ class inkscape($version='0.48.2', $fix='1-SNOWLEOPARD') {
 
   package { 'Inkscape':
     provider => 'appdmg',
-    source   => "http://downloads.sourceforge.net/inkscape/Inkscape-${version}-${fix}.dmg',
+    source   => "http://downloads.sourceforge.net/inkscape/Inkscape-${version}-${fix}.dmg",
   }
 }
