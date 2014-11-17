@@ -3,11 +3,18 @@
 # Examples
 #
 #   include inkscape
-class inkscape {
+#
+# or
+#  class { 'inkscape':
+#    version => '0.48.2',
+#    fix     => '1-SNOWLEOPARD'
+#  }
+#
+class inkscape($version='0.48.2', $fix='1-SNOWLEOPARD') {
   include xquartz
 
   package { 'Inkscape':
     provider => 'appdmg',
-    source   => 'http://downloads.sourceforge.net/inkscape/Inkscape-0.48.2-1-SNOWLEOPARD.dmg',
+    source   => "http://downloads.sourceforge.net/inkscape/Inkscape-${version}-${fix}.dmg',
   }
 }

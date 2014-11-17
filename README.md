@@ -9,6 +9,15 @@ Installs [Inkscape](http://inkscape.org/), an open-source vector graphics editor
 ```puppet
 include inkscape
 ```
+or to use specific version
+
+```puppet
+class { 'inkscape':
+  version => '0.48.2',
+  fix     => '1-SNOWLEOPARD'
+}
+```
+
 
 ## Required Puppet Modules
 
